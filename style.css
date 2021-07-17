@@ -164,7 +164,7 @@ width: 30px;
 
 }
 .beach-titel{
-    border: 5px solid deeppink;
+    border: 5px solid green;
     height: 450px;
     width: 450px;
     display: flex;
@@ -187,4 +187,96 @@ margin: 10px;
 .beach-img img{
     width: 100%;
     height: 100%;
+}
+
+/* services */
+.service-iteam{ border: 5px solid darkolivegreen;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.service{ border: 5px solid green;
+width: 900px;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+
+/* discover cites and nature */
+
+
+.discover{border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 50%;
+    width: 100%;
+    height: 200px;
+}
+.cites{
+    flex-basis: 100%;
+background-color: rgba(222, 184, 135, 0.671);
+}
+.naturs{
+    flex-basis: 100%;
+background-color: rgba(95, 158, 160, 0.849);
+}
+
+.city-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 200px
+
+}
+.nature-text{ 
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 200px
+}
+
+
+/* OUR PACKAGES */
+.OUR-PACKAGES-SECTION{
+    border: 5px solid springgreen;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.OUR-PACKAGES{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+}
+
+.PACKAGES-CARD{ border: 2px solid red;
+    width: 380px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding: 10px;
+
+}
+.PACKAGES-lmg {
+    width: 350px ;
+    height: 200px ;
+    margin:5px 5px 50px 5px;
+}
+.PACKAGES-lmg img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
 }

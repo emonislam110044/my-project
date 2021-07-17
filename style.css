@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* utility */
+
+
+/* head iteam */
+header{
+    background-color: brown;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 700px;
+}
+
+.nav-container{ 
+  border: 2px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.logo{
+    width: 55px;
+    height: 41px;
+}
+
+
+nav{
+    flex: 1;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex: 1;
+}
+ 
+nav ul li{
+    margin: 10px 30px;
+}
+.btn button{
+    background: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+nav ul li a{
+ text-decoration: none;
+ color: white;
+ font-weight: 600;
+ font-size: 17px;
+}
+ 
+.manu-box{
+margin-left: 100px;
+}
+.manu-box img{
+height: 30px;
+width: 30px;
+}
+
+/* middle head */
+.search-container{
+    border: 2px solid green;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.box{
+    border: 1px solid red;
+    margin: 20px;
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+}
+
+/* body part */
+

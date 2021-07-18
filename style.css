@@ -54,6 +54,8 @@ nav ul li{
     font-size: 17px;
     padding: 8px 20px;
     border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
 nav ul li a{
  text-decoration: none;
@@ -72,8 +74,8 @@ width: 30px;
 
 /* middle head */
 .search-container{
-    border: 2px solid green;
-    margin-top: 100px;
+   
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,13 +83,30 @@ width: 30px;
     height: 700px;
     width: 700px;
 }
+.search-container h1{
+    color: #fff;
+    font-size: 50px;
+     
+}
+.search-container p{
+    color: #fff;
+    font-size: 30px;
+    line-height: 70px;
+    margin-bottom: 60px;
+}
+.search-container input{
+    padding: 10px 80px;
+    border-radius: 15px;
+    border: none;
+     
+}
 .box-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
 .box{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
-    border: 1px solid red;
+     
     margin: 20px;
     padding: 10px;
     height: 90px;
@@ -99,7 +118,7 @@ width: 30px;
 /* OUR DESTINATIONS */
      
 .OUR-DESTINATIONS{
-    border: 5px solid green;
+    
     width: 100%;
     height: 100%;
     margin-top: 100px;
@@ -113,7 +132,7 @@ width: 30px;
     margin-bottom: 20px;
 }
 .cards{
-    border:3px solid black;
+   
     margin:30px;
     padding: 30px;
     display: grid;
@@ -121,7 +140,7 @@ width: 30px;
     grid-row-gap: 30px;
 }
 .card-1{
-    border:3px solid blue;
+     
     background-image: url(photo/contry/italy.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -131,11 +150,11 @@ width: 30px;
     height: 350px;
     position: relative;
     cursor: pointer;
-    transition: 0.18s;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
 } 
 .card-1:hover{
-    background-color: #1e90ff;
-    background-image: none;
+     transform: translateY(-5px);
     
 }
 .card-1 h1{
@@ -147,7 +166,7 @@ width: 30px;
 
 
 .card-2 {
-    border:3px solid blue;
+    
     background-image: url(photo/contry/hongkong.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -156,7 +175,13 @@ width: 30px;
     width: 350px;
     height: 350px;
     position: relative;
-     
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
+}
+.card-2:hover{
+    transform: translateY(-5px);
+   
 }
 .card-2 h1{
     color: white;
@@ -165,7 +190,7 @@ width: 30px;
     left: 20px;
 }
 .card-3{
-    border:3px solid blue;
+    
     background-image: url(photo/contry/nland.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -174,6 +199,13 @@ width: 30px;
     width: 350px;
     height: 350px;
     position: relative;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
+}
+.card-3:hover{
+    transform: translateY(-5px);
+   
 }
 .card-3 h1{
     color: white;
@@ -182,7 +214,7 @@ width: 30px;
     left: 20px;
 }
 .card-4{
-    border:3px solid blue;
+    
     background-image: url(photo/contry/pexels-adhitya-andanu-1561863.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -191,6 +223,13 @@ width: 30px;
     width: 350px;
     height: 350px;
     position: relative;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
+}
+.card-4:hover{
+    transform: translateY(-5px);
+   
 }
 .card-4 h1{
     color: white;
@@ -199,7 +238,7 @@ width: 30px;
     left: 20px;
 }
 .card-5{
-    border:3px solid blue;
+     
     background-image: url(photo/contry/pexels-pixabay-460376.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -208,6 +247,13 @@ width: 30px;
     width: 350px;
     height: 350px;
     position: relative;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
+}
+.card-5:hover{
+    transform: translateY(-5px);
+   
 }
 .card-5 h1{
     color: white;
@@ -216,7 +262,7 @@ width: 30px;
     left: 20px;
 }
 .card-6{
-    border:3px solid blue;
+    
     background-image: url(photo/contry/pexels-viktor-mogilat-3979108.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -225,6 +271,13 @@ width: 30px;
     width: 350px;
     height: 350px;
     position: relative;
+    cursor: pointer;
+    transition: 0.8s;
+    box-shadow: 1px 1px 5px gray;
+}
+.card-6:hover{
+    transform: translateY(-5px);
+   
 }
 .card-6 h1{
     color: white;
@@ -236,7 +289,6 @@ width: 30px;
 
 /* Your-Next-Holiday */
 .Your-Next-Holiday{
-    border: 5px solid blue;
     background-image: url(photo/contry/endbanner.jpg);
     background-position: bottom;
     box-sizing: border-box;
@@ -249,13 +301,13 @@ width: 30px;
     align-items: center;
     justify-content: center;
 }
-.hollyday{ border:  5px solid red;
+.hollyday{ 
  
   display: grid;
   grid-template-columns: repeat(2,1fr);
  ;
 }
-.holly-text{border:  5px solid rgb(204, 173, 173);
+.holly-text{
     margin-right: 30px;
     width: 400px;
 }
@@ -281,7 +333,7 @@ width: 30px;
 
 
 .The-Best-Beaches{
-    border: 5px solid yellow;
+   
     width: 100%;
     height: 500px;
     margin-top: 30px;
@@ -293,7 +345,7 @@ width: 30px;
 
 }
 .beach-titel{
-    border: 5px solid green;
+    
     height: 450px;
     width: 450px;
     padding: 5px;
@@ -320,10 +372,12 @@ background-color: #43e4c4;
 padding: 12px 30px;
 border-radius: 15px;
 margin: 10px;
+border: none;
+cursor: pointer;
 }
 
 .beach-img{
-    border: 5px solid deeppink;
+    
     height: 450px;
     width: 750px;
 }
@@ -333,7 +387,7 @@ margin: 10px;
 }
 
 /* services */
-.service-iteam{ border: 5px solid darkolivegreen;
+.service-iteam{ 
     height: 150px;
     width: 100%;
     display: flex;
@@ -341,13 +395,12 @@ margin: 10px;
     margin-bottom: 30px;
 
 }
-.service{ border: 5px solid green;
+.service{ 
 width: 1140px;
  display: grid;
  grid-template-columns: repeat(3,1fr);
 }
 #service-container{
-    border:1px solid red;
     margin: 10px;
     padding: 5px;
 }
@@ -377,7 +430,7 @@ margin-bottom: 5px;
 /* discover cites and nature */
 
 
-.discover{border: 1px solid black;
+.discover{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -399,7 +452,7 @@ background-color: rgba(222, 184, 135, 0.671);
     box-sizing: border-box;
     background-size:cover ;
     flex-basis: 100%;
-background-color: rgba(95, 158, 160, 0.849);
+ 
 }
 
 .city-text{
@@ -427,6 +480,7 @@ margin: 7px;
  padding: 10px 35px;
  border-radius: 10px;
  color: #A04000;
+ cursor: pointer;
  
 }
 
@@ -456,10 +510,11 @@ margin: 7px;
     padding: 10px 35px;
     border-radius: 10px;
     color: #A04000;
+    cursor: pointer;
 }
 /* OUR PACKAGES */
 .OUR-PACKAGES-SECTION{
-    border: 5px solid springgreen;
+   
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -474,7 +529,8 @@ margin: 7px;
     margin-left: 20px;
 }
 
-.PACKAGES-CARD{ border: 2px solid red;
+.PACKAGES-CARD{ 
+    box-shadow: 1px 1px 5px gray;
     width: 380px;
     height: 570px;
     display: flex;
@@ -527,15 +583,16 @@ font-size: 17px;
 #packag-end-test button{
 background: #85929E;
 border: none;
-padding: 12px 30px;
+padding: 7px 20px;
 border-radius: 10px;
+cursor: pointer;
 
 }
  
 
 /* ending part */
 
-.end{border:3px solid black;
+.end{
     background-image: url(photo/contry/endbanner.jpg);
     background-position: center;
     box-sizing: border-box;
@@ -547,7 +604,7 @@ border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
-.ending-head{border:3px solid rgb(212, 35, 35);
+.ending-head{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -575,13 +632,17 @@ border-radius: 10px;
     border-radius: 10px;
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
 }
+.input input{
+    padding: 5px 15px;
+}
 .input button{
 background:#85C1E9 ;
 border: none;
-padding: 3px 15px;
+padding: 5px 15px;
 
 }
-.ending-banar{border:3px solid rgb(116, 11, 11);
+.ending-banar{
+    
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
     display: flex;
     flex-direction: row;
@@ -589,28 +650,60 @@ padding: 3px 15px;
     justify-content: space-between;
     width: 1140px;
     height: 350px;
+    padding: 10px;
 
 }
 
 
-.end-discription{border:3px solid rgb(116, 11, 11);
+.end-discription{ 
 width: 500px;
 height: 250px;
 }
-.end-nav{ border:3px solid rgb(116, 11, 11);
+.end-discription p{
+    color:#B3B6B7;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.span{
+    margin-top: 30px;   
+}
+.span span{
+    margin-left: 5px;
+    padding: 20px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    transition: .8s;
+}
+.span span:hover{
+    color: rgba(184, 133, 38, 0.671);
+}
+.end-nav{  
      
     width: 500px;
     height: 250px;
     display: grid;
     grid-template-columns:repeat(3,1fr);
 }
+.our-agency , .parents , .last-minute , h3 li{
+    color:#e3e6e7;
+}
 .end-nav ul{
     list-style:none;
     display: flex;
     flex-direction: column;
     align-items:flex-start;
+    
 }
 .end-nav ul li{
     margin: 5px;
     padding: 2px;
+    cursor: pointer;
+    transition: .8s;
 }
+.end-nav ul li:hover{
+color: rgba(202, 134, 8, 0.411);
+font-weight: 500;
+
+} 

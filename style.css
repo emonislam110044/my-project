@@ -131,7 +131,7 @@ width: 30px;
     height: 350px;
     position: relative;
     cursor: pointer;
-    transition: background-color .8s ease-in-out ;
+    transition: 0.18s;
 } 
 .card-1:hover{
     background-color: #1e90ff;
@@ -255,11 +255,27 @@ width: 30px;
   grid-template-columns: repeat(2,1fr);
  ;
 }
-.holly-text{border:  5px solid red;
+.holly-text{border:  5px solid rgb(204, 173, 173);
     margin-right: 30px;
+    width: 400px;
 }
-.holly-button{
-
+.holly-text h1{
+    color: #fff;
+    font-size: 60px;
+}
+.holly-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.holly-button button{
+    background: none;
+    border: 1px solid black;
+    background-color: #fff;
+    color: rgb(156, 9, 9);
+    margin: 5px;
+    padding: 10px 45px;
+    border-radius: 15px;
 }
 /* The Best Beaches */
 
@@ -280,22 +296,36 @@ width: 30px;
     border: 5px solid green;
     height: 450px;
     width: 450px;
+    padding: 5px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-.btn-2{
+.beach-titel h1{
+    font-size: 40px;
+    color: rgb(26, 26, 26);
+    margin-bottom: 30px;
+}
+.beach-titel p{
+    color: gray;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.btn-2 button{
  background: none;
-border: 1px solid red;
-padding: 10px 20px;
+background-color: #43e4c4;
+padding: 12px 30px;
+border-radius: 15px;
 margin: 10px;
 }
 
 .beach-img{
     border: 5px solid deeppink;
     height: 450px;
-    width: 450px;
+    width: 750px;
 }
 .beach-img img{
     width: 100%;
@@ -312,9 +342,36 @@ margin: 10px;
 
 }
 .service{ border: 5px solid green;
-width: 900px;
+width: 1140px;
  display: grid;
  grid-template-columns: repeat(3,1fr);
+}
+#service-container{
+    border:1px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+#service-container h1{
+font-size: 35px;
+color: gray;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#service-container p{
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 15px;
+ color: gray;
+ margin-top: 5px;
+margin-bottom: 5px;
+}
+#service-container a{
+    font-size:18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #2faafc;
+    margin-left: 10px;
+
 }
 
 /* discover cites and nature */
@@ -351,8 +408,28 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 height: 200px
+}
+.city-text h1{
+color: rgb(255, 255, 255);
+font-size: 30px;
+margin: 7px;
+}
+.city-text p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
 
 }
+.city-text button{
+ background: none;
+ border: none;
+ background-color: white;
+ margin: 5px;
+ padding: 10px 35px;
+ border-radius: 10px;
+ color: #A04000;
+ 
+}
+
 .nature-text{ 
 display: flex;
 flex-direction: column;
@@ -361,7 +438,25 @@ justify-content: center;
 height: 200px
 }
 
+.nature-text h1{
+color: rgb(255, 255, 255);
+font-size: 30px;
+margin: 7px;
 
+}
+.nature-text p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.nature-text button{
+    background: none;
+    border: none;
+    background-color: white;
+    margin: 5px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    color: #A04000;
+}
 /* OUR PACKAGES */
 .OUR-PACKAGES-SECTION{
     border: 5px solid springgreen;
@@ -398,6 +493,17 @@ height: 200px
     width: 100%;
     height: 100%;
 }
+#packag-head-test a{
+ text-decoration: none;
+ font-size: 30px;
+ color: rgba(8, 7, 7, 0.815);
+}
+#packag-head-test p{
+    margin-top: 4px;
+    font-size: 20px;
+ color: rgba(8, 7, 7, 0.815); 
+}
+
 hr{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -407,6 +513,25 @@ hr{
     display: flex;
     justify-content: space-around;
 }
+.relax a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(8, 7, 7, 0.815);
+}
+#packag-end-test p{
+    
+font-size: 17px;
+ color: rgba(8, 7, 7, 0.815);
+}
+#packag-end-test button{
+background: #85929E;
+border: none;
+padding: 12px 30px;
+border-radius: 10px;
+
+}
+ 
 
 /* ending part */
 
@@ -433,6 +558,28 @@ hr{
 }
 .ending-title{
     margin-right: 350px;
+}
+.ending-title p{
+    color: rgb(116, 116, 116);
+    font-size: 17px;
+    font-weight: 600;   
+}
+.ending-title h1{
+    color: black;
+    font-size: 37px;
+    font-weight: 600; 
+}
+.input{  
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+.input button{
+background:#85C1E9 ;
+border: none;
+padding: 3px 15px;
+
 }
 .ending-banar{border:3px solid rgb(116, 11, 11);
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
